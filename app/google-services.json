@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941790532053",
+    "project_id": "newapplication-5e92a",
+    "storage_bucket": "newapplication-5e92a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941790532053:android:d1094bd460aa884f402d5c",
+        "android_client_info": {
+          "package_name": "com.erevis.newapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941790532053-tgm48dearfoleee70n0be6jn2s41e0gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7kN72l5rlQJzjbippgZJo5UBnpswzwqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941790532053-tgm48dearfoleee70n0be6jn2s41e0gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

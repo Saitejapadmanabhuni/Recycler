@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_margin="10dp"
+    android:padding="4dp"
+    app:cardCornerRadius="18dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#7B7676"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ram"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course :"
+            android:textColor="#7B7676"
+
+            android:padding="4dp"
+            android:textSize="30dp"
+            android:layout_marginTop="70dp"/>
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CSE"
+            android:textSize="30dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="130dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College :"
+            android:padding="4dp"
+            android:textColor="#7B7676"
+
+            android:layout_marginTop="130dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/college"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MRITS"
+            android:textSize="30dp"
+            android:layout_marginTop="135dp"
+            android:layout_marginLeft="130dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.cardview.widget.CardView>
